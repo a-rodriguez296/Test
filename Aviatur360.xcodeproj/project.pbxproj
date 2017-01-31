@@ -123,6 +123,7 @@
 				TargetAttributes = {
 					35B160FF1E40EF9000C72065 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GTY3SWQ26V;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -326,8 +327,10 @@
 			baseConfigurationReference = 6A29ADF01534A9F7D1CCFE9E /* Pods-Aviatur360.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GTY3SWQ26V;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Aviatur360/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.arf.Aviatur360;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -340,8 +343,10 @@
 			baseConfigurationReference = 052FAA841C769BAACCFABCAC /* Pods-Aviatur360.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GTY3SWQ26V;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Aviatur360/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.arf.Aviatur360;
 				PRODUCT_NAME = "$(TARGET_NAME)";

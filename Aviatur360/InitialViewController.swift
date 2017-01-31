@@ -7,29 +7,42 @@
 //
 
 import UIKit
+import CoreLocation
 
-class InitialViewController: UIViewController {
-
+class InitialViewController: UIViewController, CLLocationManagerDelegate {
+    
+    var locationManager: CLLocationManager!
+    
+    var location:CLLocation?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
+        locationManager = CLLocationManager()
+        locationManager.delegate = self
+        locationManager.requestAlwaysAuthorization()
+        locationManager.desiredAccuracy = kCLLocationAccuracyHundredMeters
+        
+        if CLLocationManager.locationServicesEnabled(){
+            locationManager.startUpdatingLocation()
+        }
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
+        
+        switch status {
+        case .authorizedAlways, .authorizedWhenInUse:
+            break
+        default:
+            break
+        }
     }
-    */
-
+    
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        
+        if location == nil{
+            location = locations[0]
+            manager.stopUpdatingLocation()
+        }
+    }
 }
