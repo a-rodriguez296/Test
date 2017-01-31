@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreLocation
+import GoogleMaps
 
 class InitialViewController: UIViewController, CLLocationManagerDelegate {
     
@@ -43,6 +44,21 @@ class InitialViewController: UIViewController, CLLocationManagerDelegate {
         if location == nil{
             location = locations[0]
             manager.stopUpdatingLocation()
+            
+            let geoCoder = GMSGeocoder()
+            
+            
+            geoCoder.reverseGeocodeCoordinate(location!.coordinate, completionHandler: { (response, error) in
+                if let _ = response{
+                    
+                    /*
+                     Ciudad
+                     print(r.firstResult()!.locality )
+                     Barrio
+                     print(r.firstResult()!.subLocality)
+                     */
+                }
+            })
         }
     }
 }
