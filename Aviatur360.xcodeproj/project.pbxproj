@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		35B161041E40EF9000C72065 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B161031E40EF9000C72065 /* AppDelegate.swift */; };
-		35B161061E40EF9000C72065 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B161051E40EF9000C72065 /* ViewController.swift */; };
-		35B161091E40EF9000C72065 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35B161071E40EF9000C72065 /* Main.storyboard */; };
 		35B1610B1E40EF9000C72065 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35B1610A1E40EF9000C72065 /* Assets.xcassets */; };
 		35B1610E1E40EF9000C72065 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35B1610C1E40EF9000C72065 /* LaunchScreen.storyboard */; };
+		35B161171E40F71100C72065 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B161151E40F71100C72065 /* InitialViewController.swift */; };
+		35B161181E40F71100C72065 /* InitialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35B161161E40F71100C72065 /* InitialViewController.xib */; };
 		4BC1D73BB67F1A9D079AB5CC /* Pods_Aviatur360.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B556FAF243AB187D5BBF286F /* Pods_Aviatur360.framework */; };
 /* End PBXBuildFile section */
 
@@ -19,11 +19,11 @@
 		052FAA841C769BAACCFABCAC /* Pods-Aviatur360.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aviatur360.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aviatur360/Pods-Aviatur360.release.xcconfig"; sourceTree = "<group>"; };
 		35B161001E40EF9000C72065 /* Aviatur360.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aviatur360.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35B161031E40EF9000C72065 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		35B161051E40EF9000C72065 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		35B161081E40EF9000C72065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		35B1610A1E40EF9000C72065 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35B1610D1E40EF9000C72065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35B1610F1E40EF9000C72065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35B161151E40F71100C72065 /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		35B161161E40F71100C72065 /* InitialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InitialViewController.xib; sourceTree = "<group>"; };
 		6A29ADF01534A9F7D1CCFE9E /* Pods-Aviatur360.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aviatur360.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Aviatur360/Pods-Aviatur360.debug.xcconfig"; sourceTree = "<group>"; };
 		B556FAF243AB187D5BBF286F /* Pods_Aviatur360.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aviatur360.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -62,11 +62,11 @@
 			isa = PBXGroup;
 			children = (
 				35B161031E40EF9000C72065 /* AppDelegate.swift */,
-				35B161051E40EF9000C72065 /* ViewController.swift */,
-				35B161071E40EF9000C72065 /* Main.storyboard */,
 				35B1610A1E40EF9000C72065 /* Assets.xcassets */,
 				35B1610C1E40EF9000C72065 /* LaunchScreen.storyboard */,
 				35B1610F1E40EF9000C72065 /* Info.plist */,
+				35B161151E40F71100C72065 /* InitialViewController.swift */,
+				35B161161E40F71100C72065 /* InitialViewController.xib */,
 			);
 			path = Aviatur360;
 			sourceTree = "<group>";
@@ -152,7 +152,7 @@
 			files = (
 				35B1610E1E40EF9000C72065 /* LaunchScreen.storyboard in Resources */,
 				35B1610B1E40EF9000C72065 /* Assets.xcassets in Resources */,
-				35B161091E40EF9000C72065 /* Main.storyboard in Resources */,
+				35B161181E40F71100C72065 /* InitialViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,22 +211,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35B161061E40EF9000C72065 /* ViewController.swift in Sources */,
 				35B161041E40EF9000C72065 /* AppDelegate.swift in Sources */,
+				35B161171E40F71100C72065 /* InitialViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		35B161071E40EF9000C72065 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				35B161081E40EF9000C72065 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		35B1610C1E40EF9000C72065 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
