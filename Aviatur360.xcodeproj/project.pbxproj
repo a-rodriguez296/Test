@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		357D278B1E41210900C3C8E8 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357D27891E41210900C3C8E8 /* ListViewController.swift */; };
+		357D278C1E41210900C3C8E8 /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 357D278A1E41210900C3C8E8 /* ListViewController.xib */; };
+		357D278F1E4121B100C3C8E8 /* SitesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357D278D1E4121B100C3C8E8 /* SitesCell.swift */; };
+		357D27901E4121B100C3C8E8 /* SitesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 357D278E1E4121B100C3C8E8 /* SitesCell.xib */; };
 		35B161041E40EF9000C72065 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B161031E40EF9000C72065 /* AppDelegate.swift */; };
 		35B1610B1E40EF9000C72065 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35B1610A1E40EF9000C72065 /* Assets.xcassets */; };
 		35B1610E1E40EF9000C72065 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35B1610C1E40EF9000C72065 /* LaunchScreen.storyboard */; };
@@ -17,6 +21,10 @@
 
 /* Begin PBXFileReference section */
 		052FAA841C769BAACCFABCAC /* Pods-Aviatur360.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aviatur360.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aviatur360/Pods-Aviatur360.release.xcconfig"; sourceTree = "<group>"; };
+		357D27891E41210900C3C8E8 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		357D278A1E41210900C3C8E8 /* ListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
+		357D278D1E4121B100C3C8E8 /* SitesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SitesCell.swift; sourceTree = "<group>"; };
+		357D278E1E4121B100C3C8E8 /* SitesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SitesCell.xib; sourceTree = "<group>"; };
 		35B161001E40EF9000C72065 /* Aviatur360.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aviatur360.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35B161031E40EF9000C72065 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35B1610A1E40EF9000C72065 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,10 +51,38 @@
 		357D27871E41185700C3C8E8 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				357D27881E4120E700C3C8E8 /* Initial VC */,
+				357D27921E4122CA00C3C8E8 /* List View Controller */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		357D27881E4120E700C3C8E8 /* Initial VC */ = {
+			isa = PBXGroup;
+			children = (
 				35B161151E40F71100C72065 /* InitialViewController.swift */,
 				35B161161E40F71100C72065 /* InitialViewController.xib */,
 			);
-			name = "View Controllers";
+			name = "Initial VC";
+			sourceTree = "<group>";
+		};
+		357D27911E4122C200C3C8E8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				357D278D1E4121B100C3C8E8 /* SitesCell.swift */,
+				357D278E1E4121B100C3C8E8 /* SitesCell.xib */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		357D27921E4122CA00C3C8E8 /* List View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				357D27891E41210900C3C8E8 /* ListViewController.swift */,
+				357D278A1E41210900C3C8E8 /* ListViewController.xib */,
+				357D27911E4122C200C3C8E8 /* Cell */,
+			);
+			name = "List View Controller";
 			sourceTree = "<group>";
 		};
 		35B160F71E40EF9000C72065 = {
@@ -161,6 +197,8 @@
 			files = (
 				35B1610E1E40EF9000C72065 /* LaunchScreen.storyboard in Resources */,
 				35B1610B1E40EF9000C72065 /* Assets.xcassets in Resources */,
+				357D278C1E41210900C3C8E8 /* ListViewController.xib in Resources */,
+				357D27901E4121B100C3C8E8 /* SitesCell.xib in Resources */,
 				35B161181E40F71100C72065 /* InitialViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,6 +260,8 @@
 			files = (
 				35B161041E40EF9000C72065 /* AppDelegate.swift in Sources */,
 				35B161171E40F71100C72065 /* InitialViewController.swift in Sources */,
+				357D278F1E4121B100C3C8E8 /* SitesCell.swift in Sources */,
+				357D278B1E41210900C3C8E8 /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

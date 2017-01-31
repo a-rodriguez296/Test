@@ -10,7 +10,7 @@ import UIKit
 import CoreLocation
 import GoogleMaps
 
-class InitialViewController: UIViewController, CLLocationManagerDelegate {
+class InitialViewController: UIViewController {
     
     var locationManager: CLLocationManager!
     
@@ -19,6 +19,11 @@ class InitialViewController: UIViewController, CLLocationManagerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        initializeLocationManager()
+       
+    }
+    
+    func initializeLocationManager(){
         locationManager = CLLocationManager()
         locationManager.delegate = self
         locationManager.requestAlwaysAuthorization()
@@ -29,6 +34,17 @@ class InitialViewController: UIViewController, CLLocationManagerDelegate {
         }
     }
     
+    
+    
+    @IBAction func didPressIngresar(_ sender: Any) {
+     
+        let listVC = ListViewController()
+        present(UINavigationController(rootViewController: listVC), animated: true, completion: nil)
+    }
+}
+
+extension InitialViewController: CLLocationManagerDelegate{
+ 
     func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
         
         switch status {
@@ -61,4 +77,6 @@ class InitialViewController: UIViewController, CLLocationManagerDelegate {
             })
         }
     }
+
+    
 }
