@@ -40,6 +40,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		357D27871E41185700C3C8E8 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				35B161151E40F71100C72065 /* InitialViewController.swift */,
+				35B161161E40F71100C72065 /* InitialViewController.xib */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 		35B160F71E40EF9000C72065 = {
 			isa = PBXGroup;
 			children = (
@@ -61,12 +70,11 @@
 		35B161021E40EF9000C72065 /* Aviatur360 */ = {
 			isa = PBXGroup;
 			children = (
+				357D27871E41185700C3C8E8 /* View Controllers */,
 				35B161031E40EF9000C72065 /* AppDelegate.swift */,
 				35B1610A1E40EF9000C72065 /* Assets.xcassets */,
 				35B1610C1E40EF9000C72065 /* LaunchScreen.storyboard */,
 				35B1610F1E40EF9000C72065 /* Info.plist */,
-				35B161151E40F71100C72065 /* InitialViewController.swift */,
-				35B161161E40F71100C72065 /* InitialViewController.xib */,
 			);
 			path = Aviatur360;
 			sourceTree = "<group>";

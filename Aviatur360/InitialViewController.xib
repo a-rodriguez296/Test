@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -19,18 +20,93 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hola" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="363-B4-HkJ">
-                    <rect key="frame" x="170" y="323" width="35" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <nil key="textColor"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NevadoDelRuiz" translatesAutoresizingMaskIntoConstraints="NO" id="dyP-wy-vbt">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AVIATUR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aYV-11-h6e">
+                    <rect key="frame" x="123" y="68" width="129" height="31"/>
+                    <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="25"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bienvenido a Colombia 360" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Ny6-IN-vTf">
+                    <rect key="frame" x="27" y="320" width="321" height="26"/>
+                    <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="21"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VUJ-UR-NxJ">
+                    <rect key="frame" x="141" y="566" width="93" height="35"/>
+                    <state key="normal">
+                        <attributedString key="attributedTitle">
+                            <fragment content="Ingresar">
+                                <attributes>
+                                    <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <font key="NSFont" size="19" name="Verdana-Bold"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                        <tabStops>
+                                            <textTab alignment="left" location="28.299999237060547">
+                                                <options/>
+                                            </textTab>
+                                            <textTab alignment="left" location="56.650001525878906">
+                                                <options/>
+                                            </textTab>
+                                            <textTab alignment="left" location="85">
+                                                <options/>
+                                            </textTab>
+                                            <textTab alignment="left" location="113.34999847412109">
+                                                <options/>
+                                            </textTab>
+                                            <textTab alignment="left" location="141.69999694824219">
+                                                <options/>
+                                            </textTab>
+                                            <textTab alignment="left" location="170.05000305175781">
+                                                <options/>
+                                            </textTab>
+                                            <textTab alignment="left" location="198.39999389648438">
+                                                <options/>
+                                            </textTab>
+                                            <textTab alignment="left" location="226.75">
+                                                <options/>
+                                            </textTab>
+                                            <textTab alignment="left" location="255.10000610351562">
+                                                <options/>
+                                            </textTab>
+                                            <textTab alignment="left" location="283.45001220703125">
+                                                <options/>
+                                            </textTab>
+                                            <textTab alignment="left" location="311.79998779296875">
+                                                <options/>
+                                            </textTab>
+                                            <textTab alignment="left" location="340.14999389648438">
+                                                <options/>
+                                            </textTab>
+                                        </tabStops>
+                                    </paragraphStyle>
+                                    <integer key="NSUnderline" value="1"/>
+                                    <color key="NSUnderlineColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                    </state>
+                </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="363-B4-HkJ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="iKu-Ho-zOQ"/>
-                <constraint firstItem="363-B4-HkJ" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="wdu-vE-Lew"/>
+                <constraint firstItem="Ny6-IN-vTf" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="IvN-FD-m7t"/>
+                <constraint firstItem="aYV-11-h6e" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Jbw-eA-PLA"/>
+                <constraint firstItem="VUJ-UR-NxJ" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" multiplier="1.75" id="QZF-Bh-Jw7"/>
+                <constraint firstItem="aYV-11-h6e" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" multiplier="0.25" id="UyM-Ep-CSm"/>
+                <constraint firstItem="dyP-wy-vbt" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Uzj-im-wXg"/>
+                <constraint firstAttribute="bottom" secondItem="dyP-wy-vbt" secondAttribute="bottom" id="WS2-6N-VIx"/>
+                <constraint firstAttribute="trailing" secondItem="dyP-wy-vbt" secondAttribute="trailing" id="i1p-tc-wEi"/>
+                <constraint firstItem="VUJ-UR-NxJ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="kiu-pf-8ba"/>
+                <constraint firstItem="dyP-wy-vbt" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="nP2-xK-1EI"/>
+                <constraint firstItem="Ny6-IN-vTf" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="rAv-HM-8D7"/>
             </constraints>
         </view>
     </objects>
+    <resources>
+        <image name="NevadoDelRuiz" width="16" height="16"/>
+    </resources>
 </document>
