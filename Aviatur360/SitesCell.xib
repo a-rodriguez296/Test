@@ -20,24 +20,25 @@
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xEj-PE-Bfv">
-                        <rect key="frame" x="0.0" y="0.0" width="170" height="136"/>
+                        <rect key="frame" x="0.0" y="0.0" width="170" height="170"/>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kFa-3C-PO1">
-                        <rect key="frame" x="64" y="144" width="42" height="18"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <nil key="textColor"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.34999999999999998" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kFa-3C-PO1">
+                        <rect key="frame" x="13" y="74.5" width="144.5" height="107"/>
+                        <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="90"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
             </view>
             <constraints>
-                <constraint firstItem="xEj-PE-Bfv" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="35o-2c-Yxh"/>
-                <constraint firstItem="xEj-PE-Bfv" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" multiplier="0.8" id="5GH-FG-eQ2"/>
-                <constraint firstAttribute="bottom" secondItem="kFa-3C-PO1" secondAttribute="bottom" constant="8" id="Jx9-tn-Y6m"/>
-                <constraint firstItem="kFa-3C-PO1" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="N3I-bw-j4m"/>
-                <constraint firstItem="kFa-3C-PO1" firstAttribute="top" secondItem="xEj-PE-Bfv" secondAttribute="bottom" constant="8" id="gOc-nH-rkb"/>
-                <constraint firstItem="xEj-PE-Bfv" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" id="jOS-6d-Lnd"/>
-                <constraint firstItem="xEj-PE-Bfv" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="oJ4-ea-Gjb"/>
+                <constraint firstItem="xEj-PE-Bfv" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="C2F-OP-w5B"/>
+                <constraint firstAttribute="trailing" secondItem="kFa-3C-PO1" secondAttribute="trailing" constant="13" id="NGd-FB-bMs"/>
+                <constraint firstItem="kFa-3C-PO1" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="a6d-qj-kd8"/>
+                <constraint firstItem="kFa-3C-PO1" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="13" id="m1N-Kl-yNP"/>
+                <constraint firstAttribute="trailing" secondItem="xEj-PE-Bfv" secondAttribute="trailing" id="pZ1-bp-XtE"/>
+                <constraint firstItem="xEj-PE-Bfv" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="rmg-z3-va8"/>
+                <constraint firstAttribute="bottom" secondItem="xEj-PE-Bfv" secondAttribute="bottom" id="v4Z-uc-m1e"/>
+                <constraint firstItem="kFa-3C-PO1" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" multiplier="1.5" id="xfg-ey-a30"/>
             </constraints>
             <size key="customSize" width="170" height="170"/>
             <connections>
