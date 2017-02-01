@@ -42,6 +42,13 @@ extension ListViewController: UICollectionViewDataSource, UICollectionViewDelega
         return cell
     }
     
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        let detailVC = DetailViewController(siteData: array[indexPath.row])
+        navigationController?.pushViewController(detailVC, animated: true)
+    }
+    
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize{
         
         let sqWidth = collectionView.frame.size.width/2

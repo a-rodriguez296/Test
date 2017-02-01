@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		352F94E31E42777900CE19A1 /* cascada.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 352F94E21E42777900CE19A1 /* cascada.mp4 */; };
+		352F94E71E42791400CE19A1 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 352F94E51E42791400CE19A1 /* VideoViewController.m */; };
+		352F94E81E42791400CE19A1 /* VideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 352F94E61E42791400CE19A1 /* VideoViewController.xib */; };
 		357D278B1E41210900C3C8E8 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357D27891E41210900C3C8E8 /* ListViewController.swift */; };
 		357D278C1E41210900C3C8E8 /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 357D278A1E41210900C3C8E8 /* ListViewController.xib */; };
 		357D278F1E4121B100C3C8E8 /* SitesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357D278D1E4121B100C3C8E8 /* SitesCell.swift */; };
@@ -16,11 +19,20 @@
 		35B1610E1E40EF9000C72065 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35B1610C1E40EF9000C72065 /* LaunchScreen.storyboard */; };
 		35B161171E40F71100C72065 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B161151E40F71100C72065 /* InitialViewController.swift */; };
 		35B161181E40F71100C72065 /* InitialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35B161161E40F71100C72065 /* InitialViewController.xib */; };
+		35DF38FA1E424A650013D8FE /* sindhu_beach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 35DF38F91E424A650013D8FE /* sindhu_beach.jpg */; };
+		35DF38FF1E424ABE0013D8FE /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DF38FD1E424ABE0013D8FE /* PhotoViewController.m */; };
+		35DF39001E424ABE0013D8FE /* PhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35DF38FE1E424ABE0013D8FE /* PhotoViewController.xib */; };
+		35DF39041E4250970013D8FE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DF39021E4250970013D8FE /* DetailViewController.swift */; };
+		35DF39051E4250970013D8FE /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35DF39031E4250970013D8FE /* DetailViewController.xib */; };
 		4BC1D73BB67F1A9D079AB5CC /* Pods_Aviatur360.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B556FAF243AB187D5BBF286F /* Pods_Aviatur360.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		052FAA841C769BAACCFABCAC /* Pods-Aviatur360.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aviatur360.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aviatur360/Pods-Aviatur360.release.xcconfig"; sourceTree = "<group>"; };
+		352F94E21E42777900CE19A1 /* cascada.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cascada.mp4; sourceTree = "<group>"; };
+		352F94E41E42791400CE19A1 /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		352F94E51E42791400CE19A1 /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		352F94E61E42791400CE19A1 /* VideoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoViewController.xib; sourceTree = "<group>"; };
 		357D27891E41210900C3C8E8 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		357D278A1E41210900C3C8E8 /* ListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
 		357D278D1E4121B100C3C8E8 /* SitesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SitesCell.swift; sourceTree = "<group>"; };
@@ -32,6 +44,13 @@
 		35B1610F1E40EF9000C72065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35B161151E40F71100C72065 /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 		35B161161E40F71100C72065 /* InitialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InitialViewController.xib; sourceTree = "<group>"; };
+		35DF38F91E424A650013D8FE /* sindhu_beach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sindhu_beach.jpg; sourceTree = "<group>"; };
+		35DF38FB1E424ABE0013D8FE /* Aviatur360-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Aviatur360-Bridging-Header.h"; sourceTree = "<group>"; };
+		35DF38FC1E424ABE0013D8FE /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		35DF38FD1E424ABE0013D8FE /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		35DF38FE1E424ABE0013D8FE /* PhotoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoViewController.xib; sourceTree = "<group>"; };
+		35DF39021E4250970013D8FE /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		35DF39031E4250970013D8FE /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		6A29ADF01534A9F7D1CCFE9E /* Pods-Aviatur360.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aviatur360.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Aviatur360/Pods-Aviatur360.debug.xcconfig"; sourceTree = "<group>"; };
 		B556FAF243AB187D5BBF286F /* Pods_Aviatur360.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aviatur360.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -48,11 +67,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		352F94E91E42799E00CE19A1 /* VideoVC */ = {
+			isa = PBXGroup;
+			children = (
+				352F94E41E42791400CE19A1 /* VideoViewController.h */,
+				352F94E51E42791400CE19A1 /* VideoViewController.m */,
+				352F94E61E42791400CE19A1 /* VideoViewController.xib */,
+			);
+			name = VideoVC;
+			sourceTree = "<group>";
+		};
 		357D27871E41185700C3C8E8 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				357D27881E4120E700C3C8E8 /* Initial VC */,
 				357D27921E4122CA00C3C8E8 /* List View Controller */,
+				35DF39061E426A590013D8FE /* DetailVC */,
+				35DF39011E4250830013D8FE /* PhotoVC */,
+				352F94E91E42799E00CE19A1 /* VideoVC */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -88,6 +120,8 @@
 		35B160F71E40EF9000C72065 = {
 			isa = PBXGroup;
 			children = (
+				35DF38F91E424A650013D8FE /* sindhu_beach.jpg */,
+				352F94E21E42777900CE19A1 /* cascada.mp4 */,
 				35B161021E40EF9000C72065 /* Aviatur360 */,
 				35B161011E40EF9000C72065 /* Products */,
 				BFDE65502E8C65D4471D17BA /* Pods */,
@@ -109,10 +143,30 @@
 				357D27871E41185700C3C8E8 /* View Controllers */,
 				35B161031E40EF9000C72065 /* AppDelegate.swift */,
 				35B1610A1E40EF9000C72065 /* Assets.xcassets */,
+				35DF38FB1E424ABE0013D8FE /* Aviatur360-Bridging-Header.h */,
 				35B1610C1E40EF9000C72065 /* LaunchScreen.storyboard */,
 				35B1610F1E40EF9000C72065 /* Info.plist */,
 			);
 			path = Aviatur360;
+			sourceTree = "<group>";
+		};
+		35DF39011E4250830013D8FE /* PhotoVC */ = {
+			isa = PBXGroup;
+			children = (
+				35DF38FC1E424ABE0013D8FE /* PhotoViewController.h */,
+				35DF38FD1E424ABE0013D8FE /* PhotoViewController.m */,
+				35DF38FE1E424ABE0013D8FE /* PhotoViewController.xib */,
+			);
+			name = PhotoVC;
+			sourceTree = "<group>";
+		};
+		35DF39061E426A590013D8FE /* DetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				35DF39021E4250970013D8FE /* DetailViewController.swift */,
+				35DF39031E4250970013D8FE /* DetailViewController.xib */,
+			);
+			name = DetailVC;
 			sourceTree = "<group>";
 		};
 		86D015C6A3304D28617635DC /* Frameworks */ = {
@@ -168,6 +222,7 @@
 					35B160FF1E40EF9000C72065 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = GTY3SWQ26V;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -195,10 +250,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35DF38FA1E424A650013D8FE /* sindhu_beach.jpg in Resources */,
 				35B1610E1E40EF9000C72065 /* LaunchScreen.storyboard in Resources */,
+				35DF39001E424ABE0013D8FE /* PhotoViewController.xib in Resources */,
+				35DF39051E4250970013D8FE /* DetailViewController.xib in Resources */,
+				352F94E31E42777900CE19A1 /* cascada.mp4 in Resources */,
 				35B1610B1E40EF9000C72065 /* Assets.xcassets in Resources */,
 				357D278C1E41210900C3C8E8 /* ListViewController.xib in Resources */,
 				357D27901E4121B100C3C8E8 /* SitesCell.xib in Resources */,
+				352F94E81E42791400CE19A1 /* VideoViewController.xib in Resources */,
 				35B161181E40F71100C72065 /* InitialViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,7 +321,10 @@
 				35B161041E40EF9000C72065 /* AppDelegate.swift in Sources */,
 				35B161171E40F71100C72065 /* InitialViewController.swift in Sources */,
 				357D278F1E4121B100C3C8E8 /* SitesCell.swift in Sources */,
+				35DF39041E4250970013D8FE /* DetailViewController.swift in Sources */,
+				352F94E71E42791400CE19A1 /* VideoViewController.m in Sources */,
 				357D278B1E41210900C3C8E8 /* ListViewController.swift in Sources */,
+				35DF38FF1E424ABE0013D8FE /* PhotoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,6 +438,7 @@
 			baseConfigurationReference = 6A29ADF01534A9F7D1CCFE9E /* Pods-Aviatur360.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = GTY3SWQ26V;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Aviatur360/Info.plist;
@@ -382,6 +446,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.arf.Aviatur360;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Aviatur360/Aviatur360-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -392,6 +458,7 @@
 			baseConfigurationReference = 052FAA841C769BAACCFABCAC /* Pods-Aviatur360.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = GTY3SWQ26V;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Aviatur360/Info.plist;
@@ -399,6 +466,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.arf.Aviatur360;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Aviatur360/Aviatur360-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
