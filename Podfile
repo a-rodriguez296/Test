@@ -8,4 +8,6 @@ target 'Aviatur360' do
   # Pods for Aviatur360
 pod 'GVRSDK'
 pod 'GoogleMaps'
+pod 'Fabric'
+pod 'Crashlytics'
 end
