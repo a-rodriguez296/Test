@@ -10,6 +10,7 @@ import UIKit
 import GoogleMaps
 import Fabric
 import Crashlytics
+import Parse
 
 
 @UIApplicationMain
@@ -23,6 +24,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //Crashlytics
         Fabric.with([Crashlytics.self])
 
+        let configuration = ParseClientConfiguration {
+            $0.applicationId = "app"
+            $0.clientKey = ""
+            $0.server = "http://localhost:1337/parse"
+        }
+        // Swift 3.0
+        Parse.initialize(with: configuration)
+        
         
         //Google Maps
         GMSServices.provideAPIKey("AIzaSyADxfIz0-3XtSLtGmB0TtSP2N6XmJZyLkw")

@@ -10,4 +10,5 @@ pod 'GVRSDK'
 pod 'GoogleMaps'
 pod 'Fabric'
 pod 'Crashlytics'
+pod 'Parse'
 end
