@@ -9,6 +9,7 @@
 import UIKit
 import CoreLocation
 import GoogleMaps
+import Parse
 
 class InitialViewController: UIViewController {
     
@@ -20,7 +21,16 @@ class InitialViewController: UIViewController {
         super.viewDidLoad()
         
         initializeLocationManager()
-       
+        
+        
+        let gameScore = PFObject(className:"TestAle")
+        gameScore["name"] = "Pedro"
+        gameScore.saveInBackground { (success, error) in
+           print(success)
+        }
+        
+        
+        
     }
     
     func initializeLocationManager(){
@@ -37,14 +47,14 @@ class InitialViewController: UIViewController {
     
     
     @IBAction func didPressIngresar(_ sender: Any) {
-     
+        
         let listVC = ListViewController()
         present(UINavigationController(rootViewController: listVC), animated: true, completion: nil)
     }
 }
 
 extension InitialViewController: CLLocationManagerDelegate{
- 
+    
     func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
         
         switch status {
@@ -77,6 +87,6 @@ extension InitialViewController: CLLocationManagerDelegate{
             })
         }
     }
-
+    
     
 }
